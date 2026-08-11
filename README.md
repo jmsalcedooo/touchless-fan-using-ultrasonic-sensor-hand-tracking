@@ -47,6 +47,10 @@ Using Python and OpenCV, the system processes hand gestures via a graphical inte
 
 ## 🛠️ Hardware Assembly & Wiring Guide
 
+<p align="center">
+  <img width="562" height="462" alt="Hardware Components Layout" src="https://github.com/user-attachments/assets/730f3f95-9ac0-42d6-bd98-9688ce07a993" />
+</p>
+
 The system integrates an Arduino microcontroller, an IRZ44N MOSFET, a 10k Ohm resistor, jumper wires, an ultrasonic sensor, an LCD display, and a 12V DC cooling fan.
 
 * **MOSFET Setup:** Gate connected to Arduino Pin 4, Source to GND rail, and Drain to fan's GND. A 10KΩ resistor is positioned between Gate and Drain for stable switching.
